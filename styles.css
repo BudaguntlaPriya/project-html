@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+header .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #333;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #ccc;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#speakers .speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.speaker {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.speaker:hover {
+    transform: scale(1.05);
+}
+
+.speaker img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+#schedule .schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.schedule-item {
+    background-color: #eee;
+    padding: 20px;
+    border-left: 5px solid #4a90e2;
+}
+
+#registration form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#registration .form-group {
+    text-align: left;
+}
+
+#registration label {
+    font-weight: bold;
+}
+
+#registration input[type="text"],
+#registration input[type="email"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#registration button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#registration button:hover {
+    background-color: #357ab7;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+nav {
+    background-color: #4a90e2;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    background-color: #4a90e2;
+    padding: 15px;
+    text-align: center;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header, section {
+    padding: 40px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #357ab7;
+}
+h2, h3 {
+    color: #4a90e2;
+}
+
+/* Image Styling */
+.about-image, .topic-image, .session-image, .audience-image {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+section.schedule {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.schedule h2 {
+    color: #4a90e2;
+}
+
+.schedule p {
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li strong {
+    color: #4a90e2;
+}
